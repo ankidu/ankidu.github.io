@@ -1,10 +1,30 @@
-header {
-	height: 200px; 
-}
-
 body {
 	font-family: 'Indie Flower', cursive;
 	text-align: center; 
+}
+
+header {
+	height: 200px; 
+	margin-top: 50px;
+}
+
+.resultContainer {
+	padding-top: 15px;
+	text-align: center;
+	height: 50px; 
+	margin-top: 50px; 
+	font-size: 25px; 
+	color: white; 
+	background-color: grey; 
+	opacity: 0.5; 
+	vertical-align: middle; 
+	transition: 0.25s all linear;  
+}
+
+.container {
+	position: relative; 
+	height: 100px;
+	margin-top: 30px;
 }
 
 .choices {
@@ -37,11 +57,6 @@ body {
 	transition: 0.5s;
 }
 
-.container {
-	position: relative; 
-	height: 100px; 
-}
-
 .divButton {
 	text-align: center; 
 	margin-top: 80px; 
@@ -55,18 +70,7 @@ body {
 	text-decoration: none;
 }
 
-.resultContainer {
-	padding-top: 15px;
-	text-align: center;
-	height: 50px; 
-	margin-top: 25px; 
-	font-size: 25px; 
-	color: white; 
-	background-color: grey; 
-	opacity: 0.5; 
-	vertical-align: middle; 
-	transition: 0.25s all linear;  
-}
+
 
 .scores {
 	position: relative; 
