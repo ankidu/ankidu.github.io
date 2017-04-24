@@ -3,19 +3,19 @@
 	<head>
 		<meta charset="UTF-8"/>
 		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
-		<link rel="stylesheet" href="style.css"/>
+		<link rel="stylesheet" href="styles/style.css"/>
 		<title>Shifumi Avec l'Ordinateur</title>
 	</head>
 	<body>
 		<header>
-			<h1>Rock <strong>Paper</strong> Scissors</h1>
+			<h1>Rock Paper Scissors</h1>
 			<div class="resultContainer"></div>
 		</header>
 
 		<div class="container">
-			<div class="rock choices" onclick="playerClick(1)"></div>
-			<div class="paper choices" onclick="playerClick(2)"></div>
-			<div class="scissors choices" onclick="playerClick(3)"></div>
+			<div class="rock choices" onclick="playerClick(1)"><img src="images/rock.png" alt=""></div>
+			<div class="paper choices" onclick="playerClick(2)"><img src="images/paper.png" alt=""></div>
+			<div class="scissors choices" onclick="playerClick(3)"><img src="images/scissors.png" alt=""></div>
 		</div>
 		<div class="divButton"><a href="#" class="restartButton">Play again</a></div>
 
@@ -27,7 +27,7 @@
 			<a href="#" class="changeUsername">Change Username</a>
 		</div>
 
-		<script src="main.js"></script>
-		<script src="jquery-3.2.1.min.js"></script>
+		<script src="scripts/main.js"></script>
+		<script src="scripts/jquery-3.2.1.min.js"></script>
 	</body>
 </html>
