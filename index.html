@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+		<link rel="stylesheet" href="style.css"/>
+		<title>Shifumi Avec l'Ordinateur</title>
+	</head>
+	<body>
+		<header>
+			<h1>Rock <strong>Paper</strong> Scissors</h1>
+			<div class="resultContainer"></div>
+		</header>
+
+		<div class="container">
+			<div class="rock choices" onclick="playerClick(1)"></div>
+			<div class="paper choices" onclick="playerClick(2)"></div>
+			<div class="scissors choices" onclick="playerClick(3)"></div>
+		</div>
+		<div class="divButton"><a href="#" class="restartButton">Rejouer</a></div>
+
+		<div class="scores">
+			<div class="playerScoreStorage">0 <br/> Username</br></div>
+			<div class="computerScoreStorage">0 <br/> Computer</div>
+		</div>
+		<div class="changeUsernameContainer">
+			<a href="#" class="changeUsername">Change Username</a>
+		</div>
+
+		<script src="main.js"></script>
+		<script src="jquery-3.2.1.min.js"></script>
+	</body>
+</html>
