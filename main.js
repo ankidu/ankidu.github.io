@@ -181,7 +181,8 @@ restartButton.addEventListener(
 
 changeUsername.addEventListener(
 	'click',
-	function() {
+	function(event) {
+		event.preventDefault(); 
 		username = window.prompt("Définir un nouveau pseudo"); 
 	}
 )

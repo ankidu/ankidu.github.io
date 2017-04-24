@@ -84,3 +84,14 @@ body {
 	transition: 0.10s all linear; 
 	text-align: center; 
 }
+
+.changeUsernameContainer {
+	position: relative; 
+}
+
+.changeUsername {
+	color: grey; 
+	text-decoration: none;
+	position: absolute; 
+	left: 130px;
+}
