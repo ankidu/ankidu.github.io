@@ -113,7 +113,7 @@ function playerClick(choice) {
 	setTimeout(function() {
 		resultContainer.style.opacity = "1";
 	},700);
-	
+
 }
 
 function createOpponent(choice) {
@@ -180,9 +180,8 @@ restartButton.addEventListener(
 ); 
 
 changeUsername.addEventListener(
-'click',
+	'click',
 	function() {
 		username = window.prompt("Définir un nouveau pseudo"); 
-		changeUsername.innerHTML = username;
 	}
 )
