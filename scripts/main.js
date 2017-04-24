@@ -148,7 +148,8 @@ function createOpponent(choice) {
 
 restartButton.addEventListener(
 	'click',
-	function() {
+	function(event) {
+		event.preventDefault(); 
 		choicePlayer = 0;
 		choiceComputer = 0; 
 
